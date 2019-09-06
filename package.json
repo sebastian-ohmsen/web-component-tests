@@ -1,0 +1,20 @@
+{
+  "name": "web-components-test",
+  "version": "1.0.0",
+  "description": "This repository is a demo for test purposes. The goal is to test the usage and possible build process for web components.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sebastian-ohmsen/web-component-tests.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sebastian-ohmsen/web-component-tests/issues"
+  },
+  "homepage": "https://github.com/sebastian-ohmsen/web-component-tests#readme"
+}
