@@ -4,7 +4,9 @@
   "description": "This repository is a demo for test purposes. The goal is to test the usage and possible build process for web components.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+
+    "build": "webpack",
+    "dev": "nodemon -w webpack.config.js -x webpack-dev-server -- --open"
   },
   "repository": {
     "type": "git",
@@ -16,5 +18,15 @@
   "bugs": {
     "url": "https://github.com/sebastian-ohmsen/web-component-tests/issues"
   },
-  "homepage": "https://github.com/sebastian-ohmsen/web-component-tests#readme"
+  "homepage": "https://github.com/sebastian-ohmsen/web-component-tests#readme",
+  "devDependencies": {
+    "html-webpack-plugin": "^3.2.0",
+    "node-sass": "^4.12.0",
+    "raw-loader": "^3.1.0",
+    "sass": "^1.23.0-module.beta.1",
+    "sass-loader": "^8.0.0",
+    "webpack": "^4.39.3",
+    "webpack-cli": "^3.3.8",
+    "webpack-dev-server": "^3.8.0"
+  }
 }
